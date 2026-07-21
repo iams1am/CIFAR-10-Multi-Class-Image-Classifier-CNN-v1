@@ -50,6 +50,8 @@ The model was evaluated using Scikit-Learn and Seaborn to generate a Confusion M
 
 * *Observation:* The network excels at identifying mechanical/geometric shapes with predictable backgrounds, but struggles with the soft edges and varied poses of animals (frequently confusing cats and dogs).
 
+<img width="1000" height="633" alt="Figure_1" src="https://github.com/user-attachments/assets/ad65d4c2-df84-4f5a-bd41-879f73eb9feb" />
+
 
 
 ## How to Run
