@@ -1,0 +1,11 @@
+# Ignore dataset folder
+data/
+
+# Ignore trained model weights
+*.pth
+
+# Ignore image outputs
+*.png
+
+# Ignore python cache
+__pycache__/
