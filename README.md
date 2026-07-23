@@ -66,3 +66,13 @@ The model was evaluated using Scikit-Learn and Seaborn to generate a Confusion M
 
 4. Run `python predict.py` to pull 5 random images and view the model's live confidence predictions.
 
+## Acomplishment
+
+* Built a Custom CNN: Constructed a Convolutional Neural Network from scratch in PyTorch. The convolutional layers acted as feature extractors (learning to see shapes, edges, and textures), while the linear layers acted as the classifier.
+
+* Overcame Hardware Constraints: Optimized a deep learning pipeline to train locally on an entry-level GPU (NVIDIA MX330) by strictly managing VRAM consumption through batched data loading.
+
+* Prevented Overfitting: Applied industry-standard regularization techniques—Data Augmentation (randomly cropping/flipping images), Dropout (randomly turning off neurons), and Batch Normalization—to stop the model from memorizing the data and force it to learn underlying patterns, boosting accuracy to 85%.
+
+* Evaluated Performance: Moved beyond raw accuracy by generating a Confusion Matrix and reading Precision/Recall scores to identify the model's specific visual blind spots.
+
