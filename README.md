@@ -68,7 +68,7 @@ The model was evaluated using Scikit-Learn and Seaborn to generate a Confusion M
 
 ## Acomplishment
 
-* **Built a Custom CNN:** Constructed a Convolutional Neural Network from scratch in PyTorch. The convolutional layers acted as feature extractors (learning to see shapes, edges, and textures), while the linear layers acted as the classifier.
+* **Built a Custom CNN:** Constructed a Convolutional Neural Network from scratch in PyTorch. The convolutional layers acted as feature extractors (learning to see shapes, edges, and textures), while the linear layers acted as the classifier. The image classifier has about 1.5 million parameters.
 
 * **Overcame Hardware Constraints:** Optimized a deep learning pipeline to train locally on an entry-level GPU (NVIDIA MX330) by strictly managing VRAM consumption through batched data loading.
 
